@@ -1,17 +1,17 @@
 // Logical Operators
 // what do you expect each line to print?
-console.log(true && false); false
-console.log(true || false); true
+console.log(true && false); // false
+console.log(true || false); //true
 console.log(!true);
-console.log(!(true && false)); true
-console.log(false || !false); false
+console.log(!(true && false)); // true
+console.log(false || !false); //false
 
 // Logical Operators and Truthy/Falsy
 // ? what do you expect each line to print?
-console.log(undefined || null);undefined
+console.log(undefined || null); //undefined
 console.log(!``);
-console.log(!(1 && "false"));false
-console.log(NaN || !"true");false
+console.log(!(1 && "false")); //false
+console.log(NaN || !"true"); //false
 
 // Set the age variable below equal to a number,
 // then use conditional operators to construct an expression that returns...
@@ -28,12 +28,5 @@ if (age > 10) {
 // Using only logical operators (no comparison operators),
 // write an if statement that prints...
 //  "The number is zero" when num is 0.
-
-let num = 0;
-let num1 = 3;
-if (num || num1 = 0 ); {
-  console.log("the number is zero");
-}
-
 
 // Write your if statement here *
