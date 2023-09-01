@@ -2,14 +2,14 @@
 // what do you expect each line to print?
 console.log(true && false); // false
 console.log(true || false); //true
-console.log(!true);
+console.log(!true); // false
 console.log(!(true && false)); // true
 console.log(false || !false); //false
 
 // Logical Operators and Truthy/Falsy
 // ? what do you expect each line to print?
 console.log(undefined || null); //undefined
-console.log(!``);
+console.log(!``); //true
 console.log(!(1 && "false")); //false
 console.log(NaN || !"true"); //false
 
