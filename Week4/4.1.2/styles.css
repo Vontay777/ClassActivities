@@ -1,0 +1,40 @@
+h1{
+  border:20px;
+  padding: 10px;
+  color: aqua;
+}
+title{
+  color:purple;
+  border-radius: 50px;
+}
+
+ul.h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+p,
+h1,
+h2 {
+  background-color: beige;
+}
+
+a:hover{
+  color: blue;
+}
+
+h1 + h2 {
+  font-weight: 100;
+  font-style: italic;
+}
+
+h2 {
+  padding-left:60px;
+  padding-right:50px;
+  margin-bottom: 50px;
+}
+h2 > li{
+  padding-right: 50px;
+  margin-right: 30px;
+  color: blueviolet;
+}
